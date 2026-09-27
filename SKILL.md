@@ -49,11 +49,15 @@ Ne pas utiliser ce skill si :
 
 ## Prérequis
 
-- Un navigateur contrôlable par l’agent.
-- Une session déjà connectée à `https://chatgpt.com/`.
+- **OpenCLI avec son extension navigateur active**, ou un outil équivalent de contrôle du navigateur local.
+- Un onglet `https://chatgpt.com/` déjà ouvert sur le Mac et connecté au compte de l’utilisateur.
 - Les téléchargements autorisés dans le navigateur.
 - Le dossier racine accessible localement.
 - Python 3 pour l’inventaire et les contrôles.
+
+Ce workflow doit utiliser l’onglet ChatGPT réel du Mac. Ne pas remplacer cette voie par l’API Images, le backend Codex OAuth ou une génération serveur : la qualité et le comportement ne sont pas identiques.
+
+Avant le premier produit, vérifier qu’OpenCLI voit bien l’onglet ChatGPT et peut ouvrir le sélecteur de fichiers. Si l’onglet n’est pas pilotable, s’arrêter au lieu de lancer une autre méthode.
 
 Si ChatGPT demande une connexion, un CAPTCHA, une confirmation de sécurité ou un abonnement, s’arrêter et demander à l’utilisateur d’effectuer cette étape. Ne jamais demander son mot de passe.
 
