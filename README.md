@@ -34,7 +34,7 @@ Les accents, la casse et certains pluriels sont tolérés.
 ## Installation Hermes Agent
 
 ```bash
-git clone URL_DU_DEPOT
+git clone https://github.com/axstzz/chatgpt-product-image-batch.git
 mkdir -p ~/.hermes/skills/ecommerce
 cp -R chatgpt-product-image-batch ~/.hermes/skills/ecommerce/
 ```
@@ -44,7 +44,7 @@ Relancer la session Hermes.
 ## Installation Claude Code
 
 ```bash
-git clone URL_DU_DEPOT
+git clone https://github.com/axstzz/chatgpt-product-image-batch.git
 mkdir -p ~/.claude/skills
 cp -R chatgpt-product-image-batch ~/.claude/skills/
 ```
